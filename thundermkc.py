@@ -135,8 +135,8 @@ def chain_hash(sid, log):
     return hashlib.sha256(f"{sid}|{moves}".encode()).hexdigest()
 
 def run():
-    min_duration = 91.49999999999999999989686899897999999
-    max_duration = 91.49999999999999999989686899897999999
+    min_duration = 91.86446
+    max_duration = 91.86446
     
     print(f"\nAuto-running. Stop at {min_duration}s or HP=0.\n")
 
